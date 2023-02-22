@@ -1,4 +1,6 @@
-# Motion-Planning-Algorithms
+# Rapid Prototyping Motion Planning Library v0 (MATLAB)
+
+In this repository, the MATLAB code of two new algorithms are provided:
 
 DRGBT (Dynamic Rapidly-exploring Generalized Bur Tree) algorithm is intended for motion planning in dynamic environments. The main idea behind DRGBT lies in a so-called adaptive horizon, consisting of a set of prospective target nodes that belong to a predefined C-space path, which originates from the current node. Each node is assigned a weight that depends on relative distances and captured changes in the environment. The algorithm continuously uses a suitable horizon assessment to decide when to trigger the replanning procedure.
 
